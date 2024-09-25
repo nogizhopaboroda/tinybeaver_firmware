@@ -1186,9 +1186,9 @@
  * Endstop "Hit" State
  * Set to the state (HIGH or LOW) that applies to each endstop.
  */
-#define X_MIN_ENDSTOP_HIT_STATE HIGH
+#define X_MIN_ENDSTOP_HIT_STATE LOW
 #define X_MAX_ENDSTOP_HIT_STATE HIGH
-#define Y_MIN_ENDSTOP_HIT_STATE HIGH
+#define Y_MIN_ENDSTOP_HIT_STATE LOW
 #define Y_MAX_ENDSTOP_HIT_STATE HIGH
 #define Z_MIN_ENDSTOP_HIT_STATE HIGH
 #define Z_MAX_ENDSTOP_HIT_STATE HIGH
@@ -1598,7 +1598,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -32, 3, -2.21 }
+#define NOZZLE_TO_PROBE_OFFSET { -32, 3, -0.47 }
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
